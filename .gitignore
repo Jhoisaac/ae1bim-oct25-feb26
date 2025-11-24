@@ -1,0 +1,50 @@
+# ---- Entorno virtual ----
+venv/
+.env/
+.venv/
+
+# ---- Archivos de configuración privados ----
+*.env
+*.ini
+*.cfg
+*.json
+
+# ---- Compilados de Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# ---- Distribución / empaquetado ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Cachés de herramientas ----
+*.log
+*.cache/
+.cache/
+pytest_cache/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- SQLAlchemy / Bases de datos locales ----
+*.sqlite
+*.sqlite3
+*.db
+alembic/versions/*.pyc
+alembic.ini
+
+# ---- Archivos del editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Sistemas operativos ----
+.DS_Store
+Thumbs.db
